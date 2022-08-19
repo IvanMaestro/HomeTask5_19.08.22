@@ -40,4 +40,5 @@ int FindEvenNumber(int[] array)
 int[] arr = CreateArrayRndInt(8, 100, 999);
 PrintArray(arr);
 int result = FindEvenNumber(arr);
-Console.Write($" -> {result}");
+Console.WriteLine();
+Console.WriteLine($"Количество четных чисел в массиве -> {result}");
